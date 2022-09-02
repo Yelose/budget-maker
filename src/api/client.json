@@ -10,5 +10,11 @@
     "name": "Peter",
     "surname": "Parker",
     "adress": "20 Ingram St."
+  },
+  {
+    "id": 3,
+    "name": "Yo",
+    "surname": "Soy Grut",
+    "adress": "Naturaleza"
   }
 ]

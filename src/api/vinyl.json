@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Black slate",
+    "price": 39.49,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/4/9/1/amcl40035interior03jpg2573/square%20lr.ashx?rev=39a9888c49be4b3191439f4f4b12829a&mw=768&hash=07106FC14EABF7D275660804B488A124",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/6/9/d/amcl40035structurejpg30716/square%20lr.ashx?rev=bae192ce7eed4712af97abbc1313ea88&mw=768&hash=37D37A57D42DE8A3FB72D8D67E0FDE37",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/5/2/8/amcl40035topshotjpg2574/square%20lr.ashx?rev=708b660a277c4afebf8b5d2c8a8cdc6f&mw=768&hash=5A724B0C8DB4EC22888C2BFA39F35811"
+    ],
+    "waterproof": true,
+    "color": "Black",
+    "class": 32,
+    "floorheating": true,
+    "warranty": 20,
+    "ref": "AMCL40035",
+    "collection": "Ambient Click",
+    "length": 1300,
+    "width": 320,
+    "height": 4.5,
+    "pack": 2.08,
+    "planks": 5
+  },
+  {
+    "id": 2,
+    "name": "Soft Azure",
+    "price": 47.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/c/3/ilcp40271interior03jpg185870/square%20lr.ashx?rev=0e0f46623358400a9c0eac2a2f157375&mw=768&hash=802324D2B1265314FAB0DEFF170F747D",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/c/7/d/ilcp40271structurejpg179611/square%20lr.ashx?rev=f8bff00826dc4d0eac6ca09eb35d2a5c&mw=768&hash=1849D7F4AB874AD3B30712D8778CADF5",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/8/b/d/ilcp40271topshotjpg179552/square%20lr.ashx?rev=a86e17e2138445c7a24ba69d0ecaed40&mw=768&hash=DAB74F53814433274D3D28A5DC723C8B"
+    ],
+    "waterproof": true,
+    "color": "Blue",
+    "class": 33,
+    "floorheating": true,
+    "warranty": 25,
+    "ref": "ILCP40271",
+    "collection": "Illume Click Plus",
+    "length": 994,
+    "width": 494,
+    "height": 4.5,
+    "pack": 1.964,
+    "planks": 4
+  },
+  {
+    "id": 3,
+    "name": "Black slate",
+    "price": 39.49,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/4/9/1/amcl40035interior03jpg2573/square%20lr.ashx?rev=39a9888c49be4b3191439f4f4b12829a&mw=768&hash=07106FC14EABF7D275660804B488A124",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/6/9/d/amcl40035structurejpg30716/square%20lr.ashx?rev=bae192ce7eed4712af97abbc1313ea88&mw=768&hash=37D37A57D42DE8A3FB72D8D67E0FDE37",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/5/2/8/amcl40035topshotjpg2574/square%20lr.ashx?rev=708b660a277c4afebf8b5d2c8a8cdc6f&mw=768&hash=5A724B0C8DB4EC22888C2BFA39F35811"
+    ],
+    "waterproof": true,
+    "color": "Black",
+    "class": 32,
+    "floorheating": true,
+    "warranty": 20,
+    "ref": "AMCL40035",
+    "collection": "Ambient Click",
+    "length": 1300,
+    "width": 320,
+    "height": 4.5,
+    "pack": 2.08,
+    "planks": 5
+  },
+  {
+    "id": 4,
+    "name": "Soft Azure",
+    "price": 47.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/c/3/ilcp40271interior03jpg185870/square%20lr.ashx?rev=0e0f46623358400a9c0eac2a2f157375&mw=768&hash=802324D2B1265314FAB0DEFF170F747D",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/c/7/d/ilcp40271structurejpg179611/square%20lr.ashx?rev=f8bff00826dc4d0eac6ca09eb35d2a5c&mw=768&hash=1849D7F4AB874AD3B30712D8778CADF5",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/8/b/d/ilcp40271topshotjpg179552/square%20lr.ashx?rev=a86e17e2138445c7a24ba69d0ecaed40&mw=768&hash=DAB74F53814433274D3D28A5DC723C8B"
+    ],
+    "waterproof": true,
+    "color": "Blue",
+    "class": 33,
+    "floorheating": true,
+    "warranty": 25,
+    "ref": "ILCP40271",
+    "collection": "Illume Click Plus",
+    "length": 994,
+    "width": 494,
+    "height": 4.5,
+    "pack": 1.964,
+    "planks": 4
+  },
+  {
+    "id": 5,
+    "name": "Black slate",
+    "price": 39.49,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/4/9/1/amcl40035interior03jpg2573/square%20lr.ashx?rev=39a9888c49be4b3191439f4f4b12829a&mw=768&hash=07106FC14EABF7D275660804B488A124",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/6/9/d/amcl40035structurejpg30716/square%20lr.ashx?rev=bae192ce7eed4712af97abbc1313ea88&mw=768&hash=37D37A57D42DE8A3FB72D8D67E0FDE37",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/5/2/8/amcl40035topshotjpg2574/square%20lr.ashx?rev=708b660a277c4afebf8b5d2c8a8cdc6f&mw=768&hash=5A724B0C8DB4EC22888C2BFA39F35811"
+    ],
+    "waterproof": true,
+    "color": "Black",
+    "class": 32,
+    "floorheating": true,
+    "warranty": 20,
+    "ref": "AMCL40035",
+    "collection": "Ambient Click",
+    "length": 1300,
+    "width": 320,
+    "height": 4.5,
+    "pack": 2.08,
+    "planks": 5
+  },
+  {
+    "id": 6,
+    "name": "Soft Azure",
+    "price": 47.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/c/3/ilcp40271interior03jpg185870/square%20lr.ashx?rev=0e0f46623358400a9c0eac2a2f157375&mw=768&hash=802324D2B1265314FAB0DEFF170F747D",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/c/7/d/ilcp40271structurejpg179611/square%20lr.ashx?rev=f8bff00826dc4d0eac6ca09eb35d2a5c&mw=768&hash=1849D7F4AB874AD3B30712D8778CADF5",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/8/b/d/ilcp40271topshotjpg179552/square%20lr.ashx?rev=a86e17e2138445c7a24ba69d0ecaed40&mw=768&hash=DAB74F53814433274D3D28A5DC723C8B"
+    ],
+    "waterproof": true,
+    "color": "Blue",
+    "class": 33,
+    "floorheating": true,
+    "warranty": 25,
+    "ref": "ILCP40271",
+    "collection": "Illume Click Plus",
+    "length": 994,
+    "width": 494,
+    "height": 4.5,
+    "pack": 1.964,
+    "planks": 4
+  }
+]

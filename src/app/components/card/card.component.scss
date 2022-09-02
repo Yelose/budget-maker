@@ -1,0 +1,34 @@
+mat-card {
+  width: 100%;
+  padding: 0 !important;
+  mat-card-header {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+    > div {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  > div {
+    height: 100px;
+    overflow: hidden;
+    img {
+      transform: translateY(-100px);
+    }
+  }
+  section {
+    padding: 10px;
+    mat-card-content {
+      padding: 0 10px;
+    }
+    mat-card-actions {
+      display: flex;
+      margin: 0;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}

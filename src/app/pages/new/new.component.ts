@@ -4,11 +4,11 @@ import FlooringModel from 'src/app/model/flooringModel';
 import { MainService } from 'src/app/services/api/main.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-new',
+  templateUrl: './new.component.html',
+  styleUrls: ['./new.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class NewComponent implements OnInit {
   public floorings: FlooringModel[];
   public clients: ClientModel[];
   public vinyls: FlooringModel[];

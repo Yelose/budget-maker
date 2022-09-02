@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ClientService } from './client.service';
 import { FlooringService } from './flooring.service';
+import { VinylService } from './vinyl.service';
 
 @Injectable({
   providedIn: 'root',
@@ -12,10 +13,12 @@ export class MainService {
   constructor(
     public http: HttpClient,
     public flooring: FlooringService,
-    public client: ClientService
+    public client: ClientService,
+    public vinyl: VinylService
   ) {
     this.flooring.service = this;
     this.client.service = this;
+    this.vinyl.service = this;
     this.URL = 'http://localhost:4200/api';
   }
 
