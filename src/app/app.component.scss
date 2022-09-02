@@ -7,7 +7,7 @@ body {
     flex: 1;
     overflow-y: auto;
     background-image: linear-gradient(
-        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.2),
         rgba(0, 0, 0, 0.7)
       ),
       url("/assets/img/background.png");
