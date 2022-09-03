@@ -1,11 +1,20 @@
 <body>
-  <section>
-    <app-card></app-card>
-  </section>
+  <header></header>
+  <main>
+    <section>
+      <app-card
+        *ngFor="let flooring of floorings"
+        [name]="flooring.name"
+        [title]="title[0]"
+        [vendorprice]="flooring.price.toFixed(2)"
+        [finalprice]="(flooring.price * 1.5).toFixed(2)"
+        [img0]="flooring.img[0]"
+        [img1]="flooring.img[1]"
+      ></app-card>
+    </section>
+    <aside></aside>
+  </main>
 
-  <p>Budget Maker app</p>
-  <br />
-  <br />
   <div *ngFor="let flooring of floorings">{{ flooring.name }}</div>
   <div *ngFor="let client of clients">{{ client.adress }}</div>
   <br />

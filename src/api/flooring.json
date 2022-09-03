@@ -4,7 +4,7 @@
     "name": "Oiled Walnut",
     "price": 26.5,
     "img": [
-      "https://www.quick-step.co.uk/en-gb/laminate/eligna/el1043_oiled-walnut",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/6/6/el1043interior01jpg31176/square%20lr.ashx?rev=4ac5030a4659406488b1279b7aafbe06&mw=768&hash=E31D28A2CE4DDFE75CFD5AC72808D632",
       "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/7/a/el1043structurejpg4671/square%20lr.ashx?rev=75a033b968f14eaeb4586e238f9a0072&mw=768&hash=C6BE260CE38E32FA6E1439D4237DB8BD",
       "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/a/0/el1043topshotjpg4678/square%20lr.ashx?rev=59c21cd6aaae43428a409f3dde698368&mw=768&hash=9FE57444404A59DA2388F673357D750F"
     ],
@@ -45,41 +45,19 @@
   },
   {
     "id": 3,
-    "name": "Oiled Walnut",
-    "price": 26.5,
-    "img": [
-      "https://www.quick-step.co.uk/en-gb/laminate/eligna/el1043_oiled-walnut",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/7/a/el1043structurejpg4671/square%20lr.ashx?rev=75a033b968f14eaeb4586e238f9a0072&mw=768&hash=C6BE260CE38E32FA6E1439D4237DB8BD",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/a/0/el1043topshotjpg4678/square%20lr.ashx?rev=59c21cd6aaae43428a409f3dde698368&mw=768&hash=9FE57444404A59DA2388F673357D750F"
-    ],
-    "waterproof": true,
-    "color": "Dark Brown",
-    "class": 32,
-    "floorheating": true,
-    "warranty": 25,
-    "ref": "EL1043",
-    "collection": "Eligna",
-    "length": 1380,
-    "width": 156,
-    "height": 8,
-    "pack": 1.722,
-    "planks": 8
-  },
-  {
-    "id": 4,
-    "name": "Soft oak light",
+    "name": "Burned Planks",
     "price": 30.29,
     "img": [
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/d/5/5/im1854interior01jpg3388/square%20lr.ashx?rev=cbe388a138cb4528aacd38ced8a06dca&mw=768&hash=173CF5134F93F46492FD0924A318D109",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/a/6/4/im1854structurejpg31275/square%20lr.ashx?rev=1ab6a39d975c4a2188a4c277fe3d8720&mw=768&hash=FA7F3ECBE8379862AD5E7AF1CC9BAD56",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/7/a/7/im1854topshotjpg3406/square%20lr.ashx?rev=58cea6ed97c44233ae08886c02ac010e&mw=768&hash=57448DCBE85DB9A7B66968E83D01DF6C"
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/4/d/im1862interior06paintable%20skirtingpaintedjpg184993/square%20lr.ashx?rev=6bf09b5f588c43f2a3afd7479da25ff3&mw=768&hash=933DE858081F3FC75B0B348922652168",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/5/f/2/im1862structurejpg31283/square%20lr.ashx?rev=59351c4f55064e06b743ee1ed4fb6ee3&mw=768&hash=5C53FC44A51F393199FB6FFB53A1698C",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/f/d/im1862topshotjpg3430/square%20lr.ashx?rev=aca6c33a050a46bb8d4e999db7cfc710&mw=768&hash=43EECC2E28995C4E23FCE94E6A15FE6F"
     ],
     "waterproof": true,
-    "color": "Beige",
+    "color": "Black",
     "class": 32,
     "floorheating": true,
     "warranty": 25,
-    "ref": "IM1854",
+    "ref": "IM1862",
     "collection": "Impressive",
     "length": 1380,
     "width": 190,
@@ -88,26 +66,48 @@
     "planks": 7
   },
   {
-    "id": 5,
-    "name": "Oiled Walnut",
-    "price": 26.5,
+    "id": 4,
+    "name": "Painted Oak Black",
+    "price": 30.29,
     "img": [
-      "https://www.quick-step.co.uk/en-gb/laminate/eligna/el1043_oiled-walnut",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/7/a/el1043structurejpg4671/square%20lr.ashx?rev=75a033b968f14eaeb4586e238f9a0072&mw=768&hash=C6BE260CE38E32FA6E1439D4237DB8BD",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/a/0/el1043topshotjpg4678/square%20lr.ashx?rev=59c21cd6aaae43428a409f3dde698368&mw=768&hash=9FE57444404A59DA2388F673357D750F"
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/2/d/sig4755interior03jpg106601/square%20lr.ashx?rev=8d6f5396eb6c4829a69a64116649efcf&mw=768&hash=2CD438D0F55C1E8575D8CBD7F3FFB6BA",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/b/f/3/sig4755structurejpg109471/square%20lr.ashx?rev=f253bedbbb964ca3be017034e614b8ab&mw=768&hash=2C61B975EA5F3B98D85776CD80B51739",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/8/e/a/sig4755topshotjpg104959/square%20lr.ashx?rev=c8b8a3f2c59c485799eca122260e8c05&mw=768&hash=9A46EC92D756D6CFD497DB2ECDC7F79C"
     ],
     "waterproof": true,
-    "color": "Dark Brown",
+    "color": "Black",
+    "class": 37.99,
+    "floorheating": true,
+    "warranty": 25,
+    "ref": "SIG4755",
+    "collection": "Capture",
+    "length": 1380,
+    "width": 212,
+    "height": 9,
+    "pack": 2.048,
+    "planks": 7
+  },
+  {
+    "id": 5,
+    "name": "Black Slate",
+    "price": 34.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/5/8/9/mus5492interior01halfverbandjpg173928/square%20lr.ashx?rev=138561a81f434f7dbb1343d47e12b801&mw=768&hash=69C4CC482B8358E5155B83A19CE40768",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/c/b/8/mus5492topshotderdeverbandjpg173920/square%20lr.ashx?rev=410482285d90494595059c9a0beb1298&mw=768&hash=299974FE2119B040B89525BE0E9E809B",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/b/e/3/mus5492topshothalfverbandjpg173932/square%20lr.ashx?rev=3cf6d5ead5f14b49bab1b4cfd77fb123&mw=768&hash=C34F3BCAF928999600201F3E287B8475"
+    ],
+    "waterproof": true,
+    "color": "Black",
     "class": 32,
     "floorheating": true,
     "warranty": 25,
-    "ref": "EL1043",
-    "collection": "Eligna",
-    "length": 1380,
-    "width": 156,
+    "ref": "MUS5492",
+    "collection": "Muse",
+    "length": 1200,
+    "width": 396,
     "height": 8,
-    "pack": 1.722,
-    "planks": 8
+    "pack": 1.901,
+    "planks": 4
   },
   {
     "id": 6,
@@ -133,25 +133,25 @@
   },
   {
     "id": 7,
-    "name": "Oiled Walnut",
-    "price": 26.5,
+    "name": "Scraped Oak Grey",
+    "price": 30.29,
     "img": [
-      "https://www.quick-step.co.uk/en-gb/laminate/eligna/el1043_oiled-walnut",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/7/a/el1043structurejpg4671/square%20lr.ashx?rev=75a033b968f14eaeb4586e238f9a0072&mw=768&hash=C6BE260CE38E32FA6E1439D4237DB8BD",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/2/a/0/el1043topshotjpg4678/square%20lr.ashx?rev=59c21cd6aaae43428a409f3dde698368&mw=768&hash=9FE57444404A59DA2388F673357D750F"
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/4/3/d/im1850interior01jpg3356/square%20lr.ashx?rev=eb1b5fbe57bb4f42b138bcfe1462b3f1&mw=768&hash=78DA013CEA39312A679B5297056DF92C",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/a/a/b/im1850structurejpg31272/square%20lr.ashx?rev=6576ecd37bca4dc1a94b79a78a7cbd65&mw=768&hash=9751DF713BEA268C7FC432295C67F6E2",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/d/0/4/im1850topshotjpg3408/square%20lr.ashx?rev=c06c1d3d04c540c8902405e8f168d47a&mw=768&hash=EEB864F3AD0E8315BED62C961B7E6BB3"
     ],
     "waterproof": true,
     "color": "Dark Brown",
     "class": 32,
     "floorheating": true,
     "warranty": 25,
-    "ref": "EL1043",
-    "collection": "Eligna",
+    "ref": "IM1850",
+    "collection": "Impressive",
     "length": 1380,
-    "width": 156,
+    "width": 190,
     "height": 8,
-    "pack": 1.722,
-    "planks": 8
+    "pack": 1.835,
+    "planks": 7
   },
   {
     "id": 8,

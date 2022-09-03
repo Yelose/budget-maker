@@ -1,0 +1,28 @@
+@import "src/variables.scss";
+body {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  header {
+    display: flex;
+  }
+  main {
+    section {
+      display: flex;
+      justify-content: center;
+      flex: 3;
+      flex-wrap: wrap;
+      gap: $spacing;
+      padding: $spacing;
+      app-card {
+        flex: 1;
+        min-width: 300px;
+        max-width: 500px;
+      }
+    }
+    aside {
+      display: flex;
+      flex: 2;
+    }
+  }
+}

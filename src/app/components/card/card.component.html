@@ -1,26 +1,18 @@
 <mat-card>
   <mat-card-header>
-    <img
-      mat-card-avatar
-      src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-      alt="inu"
-    />
+    <img mat-card-avatar src="{{ img1 }}" alt="{{ name }} 'mini'" />
     <div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+      <mat-card-title>{{ title }}</mat-card-title>
+      <mat-card-subtitle>{{ name }}</mat-card-subtitle>
     </div>
   </mat-card-header>
   <div>
-    <img
-      mat-card-image
-      src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-      alt="Photo of a Shiba Inu"
-    />
+    <img mat-card-image src="{{ img0 }}" alt=" {{ name }}" />
   </div>
   <section>
     <mat-card-content>
-      <p>Vendor price (m2): <span></span>€</p>
-      <p>Final price (m2): <span></span>€</p>
+      <p>Vendor price (m2): {{ vendorprice }}<span></span>€</p>
+      <p>Final price (m2): {{ finalprice }}<span></span>€</p>
     </mat-card-content>
     <mat-card-actions>
       <button mat-mini-fab color="warn" aria-label="Eliminar">

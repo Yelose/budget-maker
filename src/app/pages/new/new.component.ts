@@ -12,7 +12,10 @@ export class NewComponent implements OnInit {
   public floorings: FlooringModel[];
   public clients: ClientModel[];
   public vinyls: FlooringModel[];
-  constructor(private service: MainService) {}
+  public title: string[];
+  constructor(private service: MainService) {
+    this.title = ['Laminated Flooring', 'Vinyl Flooring'];
+  }
 
   async ngOnInit(): Promise<void> {
     this.floorings = await this.service.flooring.GetFlooring();
