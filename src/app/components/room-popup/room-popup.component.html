@@ -1,0 +1,32 @@
+<body *ngIf="shown">
+  <div>
+    <h3>Adding {{ product.name }}</h3>
+    <mat-form-field appearance="fill">
+      <mat-label>Select a room</mat-label>
+      <mat-select [(value)]="room" placeholder="New Room">
+        <mat-option *ngFor="let room of budget.rooms" [value]="room"
+          >{{ room.name }}
+        </mat-option>
+        <mat-option [value]="null">New Room </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div *ngIf="room == null">
+      <mat-form-field>
+        <mat-label>Room Name</mat-label>
+        <input #roomName matInput />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Width</mat-label>
+        <input #roomWidth matInput type="number" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Length</mat-label>
+        <input #roomLength matInput type="number" />
+      </mat-form-field>
+    </div>
+  </div>
+  <div>
+    <button mat-button (click)="addProduct()">Ok</button>
+    <button mat-button (click)="shown = false">Cancel</button>
+  </div>
+</body>

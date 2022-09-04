@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import FlooringModel from 'src/app/model/flooringModel';
+import FlooringModel from 'src/app/model/productModel';
 import { MainService } from './main.service';
 
 @Injectable({

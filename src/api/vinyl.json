@@ -19,7 +19,9 @@
     "width": 320,
     "height": 4.5,
     "pack": 2.08,
-    "planks": 5
+    "planks": 5,
+    "type": 1,
+    "title": "Vinyl Flooring"
   },
   {
     "id": 2,
@@ -41,7 +43,9 @@
     "width": 494,
     "height": 4.5,
     "pack": 1.964,
-    "planks": 4
+    "planks": 4,
+    "type": 1,
+    "title": "Vinyl Flooring"
   },
   {
     "id": 3,
@@ -63,7 +67,9 @@
     "width": 320,
     "height": 4.5,
     "pack": 2.08,
-    "planks": 5
+    "planks": 5,
+    "type": 1,
+    "title": "Vinyl Flooring"
   },
   {
     "id": 4,
@@ -85,7 +91,9 @@
     "width": 494,
     "height": 4.5,
     "pack": 1.964,
-    "planks": 4
+    "planks": 4,
+    "type": 1,
+    "title": "Vinyl Flooring"
   },
   {
     "id": 5,
@@ -107,7 +115,9 @@
     "width": 320,
     "height": 4.5,
     "pack": 2.08,
-    "planks": 5
+    "planks": 5,
+    "type": 1,
+    "title": "Vinyl Flooring"
   },
   {
     "id": 6,
@@ -129,6 +139,8 @@
     "width": 494,
     "height": 4.5,
     "pack": 1.964,
-    "planks": 4
+    "planks": 4,
+    "type": 1,
+    "title": "Vinyl Flooring"
   }
 ]

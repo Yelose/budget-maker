@@ -7,16 +7,18 @@ body {
     display: flex;
     justify-content: center;
   }
-  main {
+  > main {
     display: flex;
-    section {
+    > section {
       display: flex;
       flex: 3;
       padding: $spacing;
       border-radius: $radius;
       overflow-y: auto;
       height: 80vh;
-
+      div {
+        background-color: $border-color;
+      }
       mat-tab-group {
         background-color: hsla(0, 0%, 100%, 0.5);
         border-radius: $radius;
@@ -25,16 +27,60 @@ body {
   }
   aside {
     display: flex;
+    flex-direction: column;
     flex: 1;
+    padding: $spacing;
+    > header {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: $radius $radius 0 0;
+      padding: calc($spacing/2);
+      mat-select {
+        flex: 1;
+      }
+    }
+    .budget-container {
+      display: flex;
+      flex-direction: column;
+      background-color: $border-color;
+      padding: calc($spacing/2);
+      .client-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: $radius $radius 0 0;
+      }
+      .rooms-container {
+        display: flex;
+        flex-direction: column;
+        h3 {
+          text-align: center;
+          flex: 1;
+        }
+      }
+      section {
+        background-color: white;
+        padding: calc($spacing/2);
+        > div {
+          display: flex;
+          > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 $spacing;
+          }
+        }
+      }
+    }
   }
 }
 
-div {
+.tab-container {
   display: flex;
   flex-wrap: wrap;
   gap: $spacing;
   padding: calc($spacing/2);
-  background-color: $border-color;
   app-card {
     flex: 1;
     min-width: 250px;

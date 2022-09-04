@@ -18,7 +18,9 @@
     "width": 145,
     "height": 12.5,
     "pack": 1.583,
-    "planks": 6
+    "planks": 6,
+    "type": 1,
+    "title": "Parquet"
   },
   {
     "name": "Caramel Oak Oiled",
@@ -39,7 +41,9 @@
     "width": 220,
     "height": 14,
     "pack": 1.936,
-    "planks": 4
+    "planks": 4,
+    "type": 1,
+    "title": "Parquet"
   },
   {
     "name": "Nutmet Oak Oiled",
@@ -60,6 +64,8 @@
     "width": 145,
     "height": 12.5,
     "pack": 1.583,
-    "planks": 6
+    "planks": 6,
+    "type": 1,
+    "title": "Parquet"
   }
 ]

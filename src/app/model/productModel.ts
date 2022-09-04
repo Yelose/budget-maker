@@ -1,4 +1,4 @@
-export default class FlooringModel {
+export default class ProductModel {
   public id: number;
   public name: string;
   public price: number;
@@ -15,4 +15,6 @@ export default class FlooringModel {
   public height: number;
   public pack: number;
   public planks: number;
+  public type: number;
+  public title: string;
 }

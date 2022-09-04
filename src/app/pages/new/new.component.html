@@ -6,7 +6,7 @@
     <section>
       <mat-tab-group [color]="'primary'">
         <mat-tab label="{{ title[0] }}">
-          <div>
+          <div class="tab-container">
             <app-card
               *ngFor="let flooring of floorings"
               [name]="flooring.name"
@@ -15,11 +15,12 @@
               [finalprice]="(flooring.price * 1.5).toFixed(2)"
               [img0]="flooring.img[0]"
               [img1]="flooring.img[1]"
+              (addRoom)="popupRoom.show(flooring)"
             ></app-card>
           </div>
         </mat-tab>
         <mat-tab label="{{ title[1] }}">
-          <div>
+          <div class="tab-container">
             <app-card
               *ngFor="let vinyl of vinyls"
               [name]="vinyl.name"
@@ -28,11 +29,12 @@
               [finalprice]="(vinyl.price * 1.5).toFixed(2)"
               [img0]="vinyl.img[0]"
               [img1]="vinyl.img[1]"
+              (addRoom)="popupRoom.show(vinyl)"
             ></app-card>
           </div>
         </mat-tab>
         <mat-tab label="{{ title[2] }}">
-          <div>
+          <div class="tab-container">
             <app-card
               *ngFor="let wood of woods"
               [name]="wood.name"
@@ -41,11 +43,12 @@
               [finalprice]="(wood.price * 1.5).toFixed(2)"
               [img0]="wood.img[0]"
               [img1]="wood.img[1]"
+              (addRoom)="popupRoom.show(wood)"
             ></app-card>
           </div>
         </mat-tab>
         <mat-tab label="{{ title[3] }}">
-          <div>
+          <div class="tab-container">
             <app-card
               *ngFor="let skirting of skirtings"
               [name]="skirting.name"
@@ -54,23 +57,63 @@
               [finalprice]="(skirting.price * 1.5).toFixed(2)"
               [img0]="skirting.img[0]"
               [img1]="skirting.img[1]"
+              (addRoom)="popupRoom.show(skirting)"
             ></app-card>
           </div>
         </mat-tab>
       </mat-tab-group>
     </section>
     <aside>
-      <mat-form-field appearance="fill">
-        <mat-label>Select an option</mat-label>
-        <mat-select [(value)]="selected">
-          <mat-option
-            *ngFor="let client of clients"
-            value="{{ client.name }} {{ client.surname }} {{ client.adress }}"
+      <header>
+        <p *ngIf="budget.client == null">Select a Client</p>
+        <mat-select [(value)]="budget.client">
+          <mat-option *ngFor="let client of clients" [value]="client"
             >{{ client.name }} {{ client.surname }}</mat-option
           >
         </mat-select>
-      </mat-form-field>
-      <p>{{ selected }}</p>
+      </header>
+      <div class="budget-container">
+        <section class="client-container" *ngIf="budget.client != null">
+          <h3>{{ budget.client.name }} {{ budget.client.surname }}</h3>
+          <p>{{ budget.client.adress }}</p>
+          <p>{{ budget.client.phone }}</p>
+          <p>{{ budget.client.email }}</p>
+        </section>
+        <app-room-popup #popupRoom [budget]="budget"></app-room-popup>
+        <app-room-card></app-room-card>
+        <section class="rooms-container" *ngFor="let room of budget.rooms">
+          <h3>{{ room.name }}</h3>
+          <div *ngFor="let product of room.products">
+            <figure>
+              <img class="img-icon" src="{{ product.img[2] }}" alt="" />
+            </figure>
+            <div>
+              <div>
+                <h4>{{ product.title }}</h4>
+                <p *ngIf="product.type == 1">
+                  {{ product.price * room.length * room.width }} €
+                </p>
+                <p *ngIf="product.type == 2">
+                  {{
+                    product.price * room.length * 2 +
+                      product.price * room.width * 2 -
+                      0.75
+                  }}
+                  €
+                </p>
+              </div>
+              <div>
+                <p>{{ product.name }}</p>
+                <p>
+                  {{ product.price }}
+                  <span *ngIf="product.type == 1">€/m2</span>
+                  <span *ngIf="product.type == 2">€/m</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </aside>
   </main>
 </body>

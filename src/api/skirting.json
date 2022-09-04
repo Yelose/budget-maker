@@ -12,7 +12,9 @@
     "height": 77,
     "length": 2400,
     "width": 14,
-    "pack": 2.4
+    "pack": 2.4,
+    "type": 2,
+    "title": "Skirting"
   },
   {
     "name": "Standard Skirting",
@@ -27,7 +29,9 @@
     "height": 58,
     "length": 2400,
     "width": 12,
-    "pack": 2.4
+    "pack": 2.4,
+    "type": 2,
+    "title": "Skirting"
   },
   {
     "name": "Scotia",
@@ -42,7 +46,9 @@
     "height": 17,
     "length": 2400,
     "width": 17,
-    "pack": 2.4
+    "pack": 2.4,
+    "type": 2,
+    "title": "Skirting"
   },
   {
     "name": "Flexible Skirting",
@@ -57,7 +63,9 @@
     "height": 40,
     "length": 7000,
     "width": 14,
-    "pack": 7
+    "pack": 7,
+    "type": 2,
+    "title": "Skirting"
   },
   {
     "name": "Paintable Parquet Skirting",
@@ -72,7 +80,9 @@
     "height": 77,
     "length": 2400,
     "width": 14,
-    "pack": 2.4
+    "pack": 2.4,
+    "type": 2,
+    "title": "Skirting"
   },
   {
     "name": "Paintable Scotia",
@@ -87,6 +97,8 @@
     "height": 17,
     "length": 2400,
     "width": 17,
-    "pack": 2.4
+    "pack": 2.4,
+    "type": 2,
+    "title": "Skirting"
   }
 ]

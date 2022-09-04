@@ -5,6 +5,6 @@ export default class ClientModel {
   public name: string;
   public surname: string;
   public phone: number;
-  public email: EmailValidator;
+  public email: string;
   public adress: string;
 }

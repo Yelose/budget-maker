@@ -21,7 +21,12 @@
       <button mat-mini-fab color="primary" aria-label="Editar">
         <mat-icon>build</mat-icon>
       </button>
-      <button mat-mini-fab color="accent" aria-label="Añadir">
+      <button
+        (click)="addRoom()"
+        mat-mini-fab
+        color="accent"
+        aria-label="Añadir"
+      >
         <mat-icon>add</mat-icon>
       </button>
     </mat-card-actions>

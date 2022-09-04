@@ -19,7 +19,9 @@
     "width": 156,
     "height": 8,
     "pack": 1.722,
-    "planks": 8
+    "planks": 8,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 2,
@@ -41,7 +43,9 @@
     "width": 190,
     "height": 8,
     "pack": 1.835,
-    "planks": 7
+    "planks": 7,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 3,
@@ -63,7 +67,9 @@
     "width": 190,
     "height": 8,
     "pack": 1.835,
-    "planks": 7
+    "planks": 7,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 4,
@@ -85,7 +91,9 @@
     "width": 212,
     "height": 9,
     "pack": 2.048,
-    "planks": 7
+    "planks": 7,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 5,
@@ -107,7 +115,9 @@
     "width": 396,
     "height": 8,
     "pack": 1.901,
-    "planks": 4
+    "planks": 4,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 6,
@@ -129,7 +139,9 @@
     "width": 190,
     "height": 8,
     "pack": 1.835,
-    "planks": 7
+    "planks": 7,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 7,
@@ -151,7 +163,9 @@
     "width": 190,
     "height": 8,
     "pack": 1.835,
-    "planks": 7
+    "planks": 7,
+    "type": 1,
+    "title": "Laminated Flooring"
   },
   {
     "id": 8,
@@ -173,6 +187,8 @@
     "width": 205,
     "height": 9.5,
     "pack": 2.522,
-    "planks": 6
+    "planks": 6,
+    "type": 1,
+    "title": "Laminated Flooring"
   }
 ]

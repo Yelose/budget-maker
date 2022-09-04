@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import ClientModel from 'src/app/model/clientModel';
-import FlooringModel from 'src/app/model/flooringModel';
+import FlooringModel from 'src/app/model/productModel';
 import { MainService } from 'src/app/services/api/main.service';
 
 @Component({
