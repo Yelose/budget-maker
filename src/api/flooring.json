@@ -101,8 +101,8 @@
     "class": 32,
     "floorheating": true,
     "warranty": 25,
-    "ref": "MUS5492",
-    "collection": "Muse",
+    "ref": "SIG4754",
+    "collection": "Capture",
     "length": 1200,
     "width": 396,
     "height": 8,
@@ -111,15 +111,15 @@
   },
   {
     "id": 6,
-    "name": "Soft oak light",
+    "name": "Painted oak rose",
     "price": 30.29,
     "img": [
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/d/5/5/im1854interior01jpg3388/square%20lr.ashx?rev=cbe388a138cb4528aacd38ced8a06dca&mw=768&hash=173CF5134F93F46492FD0924A318D109",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/f/a/sig4754interior04jpg106606/square%20lr.ashx?rev=66f5f9424494488095bf0bfc2911ebe8&mw=768&hash=BC00DF1745A7EAF971427C6A37259B8E",
       "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/a/6/4/im1854structurejpg31275/square%20lr.ashx?rev=1ab6a39d975c4a2188a4c277fe3d8720&mw=768&hash=FA7F3ECBE8379862AD5E7AF1CC9BAD56",
       "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/7/a/7/im1854topshotjpg3406/square%20lr.ashx?rev=58cea6ed97c44233ae08886c02ac010e&mw=768&hash=57448DCBE85DB9A7B66968E83D01DF6C"
     ],
     "waterproof": true,
-    "color": "Beige",
+    "color": "Pink",
     "class": 32,
     "floorheating": true,
     "warranty": 25,
@@ -155,24 +155,24 @@
   },
   {
     "id": 8,
-    "name": "Soft oak light",
-    "price": 30.29,
+    "name": "Long Island Oak Natural",
+    "price": 41.49,
     "img": [
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/d/5/5/im1854interior01jpg3388/square%20lr.ashx?rev=cbe388a138cb4528aacd38ced8a06dca&mw=768&hash=173CF5134F93F46492FD0924A318D109",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/a/6/4/im1854structurejpg31275/square%20lr.ashx?rev=1ab6a39d975c4a2188a4c277fe3d8720&mw=768&hash=FA7F3ECBE8379862AD5E7AF1CC9BAD56",
-      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/7/a/7/im1854topshotjpg3406/square%20lr.ashx?rev=58cea6ed97c44233ae08886c02ac010e&mw=768&hash=57448DCBE85DB9A7B66968E83D01DF6C"
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/4/8/d/lpu1661interior01jpg3716/square%20lr.ashx?rev=aad487e00506417a9f0401d89569e606&mw=768&hash=C406B8FAB67194844C954104BE179255",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/8/1/a/lpu1661structurejpg32262/square%20lr.ashx?rev=c77544a6b4cc46e1986504c8fb9f9522&mw=768&hash=580F8AECDA1C39727F3C61AB60CE8A5E",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/7/8/lpu1661topshotjpg3658/square%20lr.ashx?rev=6ed31de70df84964aa7817842a86cd77&mw=768&hash=0870912F0231EA973485438984FF5A31"
     ],
     "waterproof": true,
-    "color": "Beige",
+    "color": "Natural",
     "class": 32,
     "floorheating": true,
     "warranty": 25,
     "ref": "IM1854",
     "collection": "Impressive",
-    "length": 1380,
-    "width": 190,
-    "height": 8,
-    "pack": 1.835,
-    "planks": 7
+    "length": 2050,
+    "width": 205,
+    "height": 9.5,
+    "pack": 2.522,
+    "planks": 6
   }
 ]

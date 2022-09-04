@@ -1,25 +1,76 @@
 <body>
-  <header></header>
+  <header>
+    <h2>Creating Budget</h2>
+  </header>
   <main>
     <section>
-      <app-card
-        *ngFor="let flooring of floorings"
-        [name]="flooring.name"
-        [title]="title[0]"
-        [vendorprice]="flooring.price.toFixed(2)"
-        [finalprice]="(flooring.price * 1.5).toFixed(2)"
-        [img0]="flooring.img[0]"
-        [img1]="flooring.img[1]"
-      ></app-card>
+      <mat-tab-group [color]="'primary'">
+        <mat-tab label="{{ title[0] }}">
+          <div>
+            <app-card
+              *ngFor="let flooring of floorings"
+              [name]="flooring.name"
+              [title]="title[0]"
+              [vendorprice]="flooring.price.toFixed(2)"
+              [finalprice]="(flooring.price * 1.5).toFixed(2)"
+              [img0]="flooring.img[0]"
+              [img1]="flooring.img[1]"
+            ></app-card>
+          </div>
+        </mat-tab>
+        <mat-tab label="{{ title[1] }}">
+          <div>
+            <app-card
+              *ngFor="let vinyl of vinyls"
+              [name]="vinyl.name"
+              [title]="title[1]"
+              [vendorprice]="vinyl.price.toFixed(2)"
+              [finalprice]="(vinyl.price * 1.5).toFixed(2)"
+              [img0]="vinyl.img[0]"
+              [img1]="vinyl.img[1]"
+            ></app-card>
+          </div>
+        </mat-tab>
+        <mat-tab label="{{ title[2] }}">
+          <div>
+            <app-card
+              *ngFor="let wood of woods"
+              [name]="wood.name"
+              [title]="title[2]"
+              [vendorprice]="wood.price.toFixed(2)"
+              [finalprice]="(wood.price * 1.5).toFixed(2)"
+              [img0]="wood.img[0]"
+              [img1]="wood.img[1]"
+            ></app-card>
+          </div>
+        </mat-tab>
+        <mat-tab label="{{ title[3] }}">
+          <div>
+            <app-card
+              *ngFor="let skirting of skirtings"
+              [name]="skirting.name"
+              [title]="title[3]"
+              [vendorprice]="skirting.price.toFixed(2)"
+              [finalprice]="(skirting.price * 1.5).toFixed(2)"
+              [img0]="skirting.img[0]"
+              [img1]="skirting.img[1]"
+            ></app-card>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
     </section>
-    <aside></aside>
+    <aside>
+      <mat-form-field appearance="fill">
+        <mat-label>Select an option</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option
+            *ngFor="let client of clients"
+            value="{{ client.name }} {{ client.surname }} {{ client.adress }}"
+            >{{ client.name }} {{ client.surname }}</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+      <p>{{ selected }}</p>
+    </aside>
   </main>
-
-  <div *ngFor="let flooring of floorings">{{ flooring.name }}</div>
-  <div *ngFor="let client of clients">{{ client.adress }}</div>
-  <br />
-  <br />
-  <div *ngFor="let vinyl of vinyls">{{ vinyl.name }}</div>
-  <br />
-  <br />
 </body>

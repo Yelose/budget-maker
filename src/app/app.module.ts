@@ -10,9 +10,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
 import { NewComponent } from './pages/new/new.component';
 import { CardComponent } from './components/card/card.component';
+import { SubheaderComponent } from './components/subheader/subheader.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent, NewComponent, CardComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponent, NewComponent, CardComponent, SubheaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

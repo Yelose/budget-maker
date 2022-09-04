@@ -5,24 +5,39 @@ body {
   flex-direction: column;
   header {
     display: flex;
+    justify-content: center;
   }
   main {
+    display: flex;
     section {
       display: flex;
-      justify-content: center;
       flex: 3;
-      flex-wrap: wrap;
-      gap: $spacing;
       padding: $spacing;
-      app-card {
-        flex: 1;
-        min-width: 300px;
-        max-width: 500px;
+      border-radius: $radius;
+      overflow-y: auto;
+      height: 80vh;
+
+      mat-tab-group {
+        background-color: hsla(0, 0%, 100%, 0.5);
+        border-radius: $radius;
       }
     }
-    aside {
-      display: flex;
-      flex: 2;
-    }
+  }
+  aside {
+    display: flex;
+    flex: 1;
+  }
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing;
+  padding: calc($spacing/2);
+  background-color: $border-color;
+  app-card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
   }
 }

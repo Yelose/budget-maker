@@ -1,3 +1,4 @@
+@import "src/variables.scss";
 mat-card {
   width: 100%;
   padding: 0 !important;
@@ -16,7 +17,7 @@ mat-card {
     height: 100px;
     overflow: hidden;
     img {
-      transform: translateY(-50%);
+      transform: translateY(-40%);
     }
   }
   section {
@@ -28,7 +29,8 @@ mat-card {
       display: flex;
       margin: 0;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
+      gap: $spacing;
     }
   }
 }

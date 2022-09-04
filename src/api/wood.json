@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Dusk oak oiled",
+    "price": 60.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/f/0/7/com3899interior01jpg31152/square%20lr.ashx?rev=4beb59434eb845babe7decba9715bd7b&mw=768&hash=DC5681845BABD51F7A4877F07A010AFF",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/7/2/b/com3899structurejpg31151/square%20lr.ashx?rev=99fa4f98d2774ba093e13d9c95527c89&mw=768&hash=F3B47A5F38D7B8E6D78AB76448AEAACC",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/0/1/5/com3899topshotjpg31150/square%20lr.ashx?rev=85562909d7cc417e94365fc4615f03f5&mw=768&hash=D7410FF0625BDC0B65EF594157891ECA"
+    ],
+    "waterproof": false,
+    "color": "Light grey",
+    "class": 0,
+    "floorheating": true,
+    "warranty": 100,
+    "ref": "COM3899",
+    "collection": "Compact",
+    "length": 1820,
+    "width": 145,
+    "height": 12.5,
+    "pack": 1.583,
+    "planks": 6
+  },
+  {
+    "name": "Caramel Oak Oiled",
+    "price": 87.49,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/a/b/d/imp1625sinterior02jpg32213/square%20lr.ashx?rev=6c5e26831f6f426f8a684d636fe903da&mw=768&hash=1238E4C6E3B2AE24B46ADB83C439EF6F",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/d/c/imp1625sstructurejpg32209/square%20lr.ashx?rev=da6846310cd44496b09d2206d40ed44b&mw=768&hash=CCD12F66604ED618E4C560C9A59E350D",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/d/7/0/imp1625stopshotjpg32204/square%20lr.ashx?rev=476d2787283a40e3a71296f3225ebccb&mw=768&hash=7D57F154E344B11B7D878939C832E9E2"
+    ],
+    "waterproof": false,
+    "color": "Dark Brown",
+    "class": 0,
+    "floorheating": true,
+    "warranty": 100,
+    "ref": "COM3899",
+    "collection": "Compact",
+    "length": 2200,
+    "width": 220,
+    "height": 14,
+    "pack": 1.936,
+    "planks": 4
+  },
+  {
+    "name": "Nutmet Oak Oiled",
+    "price": 60.99,
+    "img": [
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/9/0/4/com3898interior01jpg31148/square%20lr.ashx?rev=fa294e65cc584882b69f5d988da6bbe4&mw=768&hash=D255679D0DB5EF4742A20E0D4D685EDC",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/e/1/e/com3898structurejpg31149/square%20lr.ashx?rev=b8d585ea541c436b92287bb6ef755cda&mw=768&hash=0E70565A95406570CDEFF4613FB78310",
+      "https://cdn2.quick-step.com/-/media/imported%20assets/flooring/e/e/8/com3898topshotjpg31147/square%20lr.ashx?rev=b71bef1b43804ad7a741dd5fde812170&mw=768&hash=DB7B184DF807FFB75F281F6A9C48ED8D"
+    ],
+    "waterproof": false,
+    "color": "Dark Brown",
+    "class": 0,
+    "floorheating": true,
+    "warranty": 100,
+    "ref": "COM3898",
+    "collection": "Compact",
+    "length": 1820,
+    "width": 145,
+    "height": 12.5,
+    "pack": 1.583,
+    "planks": 6
+  }
+]

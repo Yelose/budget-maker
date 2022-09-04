@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { NewComponent } from 'src/app/pages/new/new.component';
 
 @Component({
   selector: 'app-card',

@@ -3,18 +3,32 @@
     "id": 1,
     "name": "Peter",
     "surname": "Pan",
+    "phone": 928847727,
+    "email": "peterpan@disney.com",
     "adress": "31 Kensington Park Gardens"
   },
   {
     "id": 2,
     "name": "Peter",
     "surname": "Parker",
+    "phone": 193467858,
+    "email": "peterparker@marvel.com",
     "adress": "20 Ingram St."
   },
   {
     "id": 3,
     "name": "Yo",
     "surname": "Soy Grut",
-    "adress": "Naturaleza"
+    "phone": 948750902,
+    "email": "yosoygrut@marvel.com",
+    "adress": "40 Green Peace St."
+  },
+  {
+    "id": 4,
+    "name": "Clark",
+    "surname": "Kent",
+    "phone": 374757785,
+    "email": "superman@dc.com",
+    "adress": "344 Clinton Street, Apartment 3D"
   }
 ]
